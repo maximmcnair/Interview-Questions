@@ -1,4 +1,4 @@
 Interview-Questions
 ===================
 
-Interview interactive questions 
+This repo serves as an interactive interview for Fanbookz frontend.
