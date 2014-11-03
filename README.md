@@ -2,6 +2,8 @@
 
 This repo serves as an interactive interview for Fanbookz frontend.
 
+Can you clone this repo. Complete this task and create a pull request.
+
 ## Modal
 Files can be found in `./modal/`
 
