@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+   outline: 0;
+}
+
+html, body {
+	text-align: center;
+	font-family: 'Oswald', Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #777;
+	padding-bottom: 20px;
+}
+
+button {
+	padding: 4px 10px;
+	margin: 10px auto;
+}
+
+.modal_container {
+	width: 70%;
+	margin: auto;
+	border: 1px solid #777;
+	text-align: center;
+	display: none;
+}
+.modal_container h1 {
+	text-transform: uppercase;
+	color: #777;
+	padding: 10px 0;
+	font-weight: 300;
+}
+.modal_container img {
+	border: 1px solid #777;
+	margin-bottom: 10px;
+	max-width: 100%;
+	height: auto;
+}
+.modal_container p {
+	padding: 10px 40px;
+}
+.modal_container a {
+	display: inline-block;
+	padding-bottom: 10px;
+	color: #333;
+	font-size: 90%;
+}
+
