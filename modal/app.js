@@ -26,4 +26,11 @@ $(document).ready(function() {
     		$('body').css('background', 'RGB(255, 255, 255)');
     	});
     });
+
+    // Custom closing the modal
+
+    $('.closeModal').on('click', function() {
+    	
+    	$('.modal').dialog('close');
+    });
 });
