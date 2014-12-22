@@ -1,0 +1,42 @@
+/* CSS Styles */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+.wrapper{
+	width: 960px;
+	margin: 50px auto;
+	font-family: monospace;
+}
+
+.popUp{
+	width: 350px;
+	height: 30px;
+	box-shadow: 0 0 1px black;
+	position: relative;
+	left: 33%;
+	top: 100px;
+}
+
+.modal{
+	background: white;
+	box-shadow: 0 0 5px white;
+	text-align: center;
+	padding: 15px;
+}
+
+.modal p{
+	text-align: justify;
+	line-height: 25px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+}
+
+.modal a {
+	color: RGB(194, 46, 79);
+}
+
+
+.ui-dialog-titlebar-close{
+    display: none;
+}
+
