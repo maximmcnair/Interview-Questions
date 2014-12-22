@@ -1,20 +1,29 @@
 'use strict';
 
 $(document).ready(function() {
-	
+		
+		// Creating modal window 
     $('.modal').dialog({
   		bgiframe: true,
       autoOpen: false,
       modal: true,
-      hide: { effect: 'fold', duration: 1000 } 
+      width: '600px',
+      appendTo: '.wrapper',
+      hide: { effect: 'fold', duration: 1000 },
+      close: function(){
+      	$('body').css('background', 'RGB(255, 255, 255)');
+      }
     });
 
+    // Showing modal window
     $('.popUp').on('click', function() {
-    	$('body').css('background', 'RGBA(40, 42, 54,0.7)');
+    	$('body').css('background', 'RGB(40, 42, 54)');
     	$('.modal').dialog('open');
+
+    	// Closing window 
     	$('.modal').bind('click', function() {
     		$(this).dialog('close');
-    		$('body').css('background', 'RGBA(255,255,255,1)');
+    		$('body').css('background', 'RGB(255, 255, 255)');
     	});
     });
 });
