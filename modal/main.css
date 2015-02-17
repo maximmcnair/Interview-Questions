@@ -1,0 +1,52 @@
+#dialog-button button {
+    text-transform: uppercase;
+    color: #000;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    display: block;
+    padding: 14px;
+    font-weight: 800;
+    border: 1px solid #be9c0d;
+    background-color: #ffcc0f;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffd211), color-stop(1, #ffb308));
+    background: -webkit-linear-gradient(top, #ffd211 0%, #ffb308 100%);
+    background: -moz-linear-gradient(top, #ffd211 0%, #ffb308 100%);
+    background: -o-linear-gradient(top, #ffd211 0%, #ffb308 100%);
+    background: -ms-linear-gradient(top, #ffd211 0%, #ffb308 100%);
+    background: linear-gradient(top, #ffd211 0%, #ffb308 100%);
+    text-align: center;
+    vertical-align: middle;
+    font-family: sans-serif;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.reusable-modal {
+    height: 75vh !important;
+    width: 75vw !important;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: visible !important;
+}
+
+.reusable-modal .ui-dialog-titlebar {
+    box-sizing: border-box;
+    height: 30px;
+}
+
+#dialog {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: calc(100% - 30px) !important;
+}
+
+#dialog img {
+    width: 100%;
+    height: auto;
+}
